@@ -27,6 +27,6 @@ RUN chown root.root /etc/bootstrap.sh
 RUN chmod 777 /etc/bootstrap.sh
 
 # too much for a simple spark, you could do R if you want it
-#RUN apt-get -y install r-base
+RUN apt-get -y install r-base
 
 ENTRYPOINT ["/etc/bootstrap.sh"]
