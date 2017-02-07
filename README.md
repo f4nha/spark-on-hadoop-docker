@@ -27,7 +27,7 @@ the image start with the bootstrap.sh script, which did the following steps:
 After pull, run the following command to get into bash mode:
 
 ```shell
-  docker run -it -p 8088:8088 -p 8042:8042 -p 4040:4040 -h sandbox timmyraynor/spark bash
+  docker run -it -p 8088:8088 -p 8042:8042 -p 4040:4040 -p 50070:50070 -h sandbox timmyraynor/spark bash
 ```
 or just run it as a backend service:
 
