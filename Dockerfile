@@ -5,7 +5,7 @@ MAINTAINER Tim.Qin<qinyujue@gmail.com>
 RUN apt-get -y install scala
 
 # get spark
-RUN wget -O /tmp/spark-2.1.0-bin-hadoop2.7.tgz http://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.7.tgz
+RUN wget -q -O /tmp/spark-2.1.0-bin-hadoop2.7.tgz http://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.7.tgz
 
 # unzip and create link folder
 RUN tar -xzf /tmp/spark-2.1.0-bin-hadoop2.7.tgz -C /usr/local
