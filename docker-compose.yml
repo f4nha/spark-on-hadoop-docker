@@ -9,6 +9,7 @@ services:
      - "50070:50070"
      - "4040:4040"
      - "8042:8042"
+    command: -d
   minio:
     image: "minio/minio"
     hostname: minio
