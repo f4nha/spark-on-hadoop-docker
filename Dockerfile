@@ -1,4 +1,4 @@
-FROM timmyraynor/hadoop-docker:latest
+FROM timmyraynor/hadoop-docker:1.0
 MAINTAINER Tim.Qin<qinyujue@gmail.com>
 
 # get scala library
