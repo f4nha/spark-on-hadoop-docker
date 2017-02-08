@@ -36,3 +36,12 @@ or just run it as a backend service:
 ```
 
 please note that the `-h sandbox` option is required for the `yarn-site.xml` file which refer to host as *sandbox*
+
+# docker compose
+docker compose is now supported in this image, git clone and then run
+
+```shell
+  docker-compose up
+```
+
+Will give you the right build with minio as the object exchange server
