@@ -34,6 +34,10 @@ or just run it as a backend service:
 ```shell
   docker run -d -h sandbox timmyraynor/spark -d
 ```
+or
+```shell
+docker run -d -h sandbox -p 8088:8088 -p 8042:8042 -p 4040:4040 -p 50070:50070 timmyraynor/spark -d
+```
 
 please note that the `-h sandbox` option is required for the `yarn-site.xml` file which refer to host as *sandbox*
 
